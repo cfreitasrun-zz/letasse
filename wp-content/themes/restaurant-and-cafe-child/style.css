@@ -1,0 +1,83 @@
+/*
+Theme Name: Restaurant and Cafe Child
+Theme URI: https://raratheme.com/wordpress-themes/restaurant-and-cafe
+Author: Rara Theme
+Author URI: http://raratheme.com
+Description: Restaurant and Cafe WordPress theme is a perfect solution for restaurants, cafe or any food and drink businesses. Whether you are running a cafe shop, a bakery or a large luxurious restaurant, Restaurant and Cafe theme will meet your expectation and give your customer a great experience! Restaurant and Cafe Theme comes with a Banner section, Feature section, About section, Services Section, Testimonial section, Restaurant Menu section, Reservation section and Blog section on Home or front-page. It is also WooCommerce ready and translation ready. The theme is responsive/mobile-friendly and so your website will look gorgeous in the mobile and tablet devices.Check the demo at https://raratheme.com/preview/restaurant-and-cafe/, documentation at https://raratheme.com/documentation/restaurant-cafe/  and get support at https://raratheme.com/support-ticket.
+Version: 1.0.7
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Template: restaurant-and-cafe
+Text Domain: restaurant-and-cafe
+Tags:  one-column, two-columns, right-sidebar, custom-menu, featured-images, flexible-header, post-formats, sticky-post, threaded-comments, translation-ready, custom-background, footer-widgets, full-width-template, theme-options, e-commerce, food-and-drink, blog
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+Restaurant and Cafe is based on Underscores http://underscores.me/, (C) 2012-2015 Automattic, Inc.
+Underscores is distributed under the terms of the GNU GPL v2 or later.
+
+Normalizing styles have been helped along thanks to the fine work of
+Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
+*/
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+# Normalize
+# Typography
+# Elements
+# Forms
+# Navigation
+	## Links
+	## Menus
+# Accessibility
+# Alignments
+# Clearings
+# Widgets
+# Content
+    ## Posts and pages
+	## Asides
+	## Comments
+# Infinite scroll
+# Media
+	## Captions
+	## Galleries
+--------------------------------------------------------------*/
+@import url("../restaurant-and-cafe/style.css");
+
+/*--------------------------------------------------------------
+# Normalize
+--------------------------------------------------------------*/
+
+/*HEADER*/
+.header-inner {
+	background: #735638;
+	height: 600px;
+}
+
+.main-navigation {
+	float: none;
+	clear: both;
+}
+
+.site-branding {
+	text-align: center;
+	clear: both;
+	float: none;
+}
+
+.site-header
+.site-branding {
+	float: none;
+}
+
+.site-header
+.site-branding
+.site-title {
+	margin-top: 80px;
+	margin-bottom: 50px;
+}
+
+p.site-description {
+	margin-top: 40px;
+}
